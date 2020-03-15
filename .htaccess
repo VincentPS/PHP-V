@@ -1,4 +1,10 @@
 RewriteEngine on
+
+# Ignore assets such as css and js
+RewriteCond %{REQUEST_URI} !(\.css|\.js|\.png|\.jpg|\.gif|robots\.txt)$ [NC]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirect everything back to /index.php
 RewriteRule ^(.*)$ index.php [NC,L,QSA]

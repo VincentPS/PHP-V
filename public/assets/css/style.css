@@ -1,0 +1,12 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.fixed-bottom .footer-copyright a {
+    font-size: 12px;
+    color: #ebeced;
+}
+
+.fixed-bottom .footer-copyright a:hover {
+    text-decoration: none;
+}
