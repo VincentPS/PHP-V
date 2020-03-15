@@ -1,0 +1,14 @@
+{
+    "name": "vincent/php-v",
+    "description": "A Lightweight Core-PHP Framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "VincentPS",
+            "email": "vincentschaddelee@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
