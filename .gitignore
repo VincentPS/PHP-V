@@ -7,3 +7,10 @@ composer.phar
 # You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
 # composer.lock
 
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/php.xml
+/.idea/PHP-V.iml
+/.idea/vcs.xml
+/.idea/workspace.xml
+/.idea/inspectionProfiles/Project_Default.xml
